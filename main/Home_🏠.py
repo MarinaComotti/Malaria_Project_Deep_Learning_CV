@@ -1,19 +1,19 @@
 import streamlit as st
 
-st.set_page_config(page_title="AI App", page_icon="🖥️", layout="wide")
+st.set_page_config(page_title="Malaria Detection App", page_icon="🖥️", layout="wide")
 
-st.title("Clasificación de Imágenes para la Detección de Malaria")
+st.title("Image Classification for Malaria Detection")
 st.markdown(
     """
-    ## ¡Bienvenido! :wave:
+    ## ¡Welcome! :wave:
     
-    En esta página podrás probar un modelo de **deep learning** entrenado para realizar clasificación de imágenes de células según se encuentren infectadas o no del parásito que provoca la enfermedad de **Malaria**.
+    On this page, you will be able to test a trained **deep learning** model for image classification of cells, determining whether they are infected or not with the parasite that causes **Malaria**.
         
-    ### Tienes dos maneras de utilizarlo: :wrench:
+    ### You have two ways to use it: :wrench:
     
-    1. **Load your image**: Si tienes imágenes en tu computadora de células que pueden estar o no enfermas, dirígete a esta sección. Ten en cuenta que el modelo fue entrenado con imágenes tomadas de muestras de frotis sanguíneo de células segmentadas. Por lo tanto, para que la clasificación sea lo más correcta posible, las imágenes que se carguen deben pertenecer también a muestras de este tipo.
+    1. **Load your image**: If you have images on your computer of cells that may or may not be diseased, go to this section. Keep in mind that the model was trained with images taken from blood smear samples of segmented cells. Therefore, for the classification to be as accurate as possible, the uploaded images should also belong to samples of this type.
         
-    2. **Choose an image**: Si no tienes tus propias imágenes de células, puedes ir a esta sección donde encontrarás un conjunto de imágenes pre-seleccionadas para probar el modelo. Estas imágenes no fueron utilizadas durante el entrenamiento ya que pertenecen al conjunto de test.
+    2. **Choose an image**: If you don't have your own images of cells, you can go to this section where you will find a set of pre-selected images to test the model. These images were not used during training as they belong to the test set.
     """,
     unsafe_allow_html=True,
 )
