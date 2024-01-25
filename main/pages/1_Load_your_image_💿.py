@@ -17,7 +17,7 @@ def load():
 def create_columns(img):
     col1, col2 = st.columns(2)
     with col1:
-        st.image(img, caption="Imagen cargada", width=300)
+        st.image(img, caption="Image uploaded", width=300)
     with col2:
         process_info.show_prediction(img, " hhb ")
 

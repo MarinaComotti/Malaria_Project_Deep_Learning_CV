@@ -36,7 +36,7 @@ def create_tabs():
     tab1, tab2 = st.tabs(["Parasitized images: ", "Uninfected images: "])
     with tab1:
         option = st.selectbox(
-            "Selecciona una imagen de la clase 'Parasitized': ",
+            "Select an image from the 'Parasitized' class:",
             options=options,
             index=None,
             placeholder="Parasitized images...",
@@ -52,7 +52,7 @@ def create_tabs():
 
     with tab2:
         option = st.selectbox(
-            "Selecciona una imagen de la clase 'Uninfected':  ",
+            "Select an image from the 'Uninfected' class:  ",
             options=options,
             index=None,
             placeholder="Uninfected images...",
