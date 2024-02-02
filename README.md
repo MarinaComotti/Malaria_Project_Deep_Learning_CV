@@ -1,6 +1,6 @@
 # Malaria detection App
 
-<img src="./images_test_sample/Collage_for_readme.png" alt="cells" style="max-width: 100%; max-height: 100%; display: block; margin: auto;">
+<img src="./images_test_sample/Collage_for_readme.png" alt="cells" style="with: 667; height: 300; display: block; margin: auto;">
 
 ## Welcome! 
 ### Use the app on [Streamlit](https://malariaprojectdeeplearningcv-st.streamlit.app/)
