@@ -1,25 +1,25 @@
-# Malaria detection App
+# Malaria Image Classification Project 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]([enlace_a_tu_notebook_en_Colab](https://colab.research.google.com/drive/1RsTRgTm2oc3IzHUQd4CgK_uFq_rfUU-4?usp=sharing))  [![Open In Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)]([enlace_a_tu_aplicacion_streamlit](https://malariaprojectdeeplearningcv-st.streamlit.app/))
 
-<img src="./images_test_sample/Collage_for_readme.png" alt="cells" style="with: 667; height: 300; display: block; margin: auto;">
+<img src="./images_test_sample/collage_readme.png" alt="cells" style="max-width: 200px; height: 332px; display: block; margin: auto;">
+
 
 ## Welcome! 
-### Use the app on [Streamlit](https://malariaprojectdeeplearningcv-st.streamlit.app/)
 
-### You can also view the source code on [GitHub](https://github.com/MarinaComotti/Malaria_Project_Deep_Learning_CV.git) and contribute by making a pull request.
-
-
-## About proyect 
+### About proyect 
 This project aims to detect malaria using deep learning techniques. To address this issue, we focus on implementing a supervised learning approach. For model training, we utilize the "Malaria" dataset from TensorFlow Datasets, which contains 27,558 images of blood cells, both parasitized and uninfected. The main purpose is to create a binary classification model aimed at improving malaria diagnosis.
 Using tools such as TensorFlow and Keras, we thoroughly explore deep learning techniques. The project covers everything from data acquisition and preprocessing to model implementation and evaluation. Our comprehensive approach is not only geared towards developing an efficient solution for malaria image classification but also understanding in-depth the complexities and challenges associated with the practical application of artificial intelligence in a medical context.
+
+The exploration and processing of data, along with the construction, training, and evaluation of the model, were developed in Google Colab. To access the document, click on this [link](https://malariaprojectdeeplearningcv-st.streamlit.app/)
  
-## About model
-This model was created using Tensorflow and Keras. Different techniques were applied in its development, including CNN, Image Augmentation, Transfer Learning (with VGG16), and Fine-Tuning. During the evaluation stage, it achieved a 96% accuracy on the test set.
+### About model
+This model was created using Tensorflow and Keras. Different techniques were applied in its development, including CNN, Image Augmentation, Transfer Learning (with VGG16), and Fine-Tuning. During the evaluation stage, it achieved an accuracy of about 96% on the test set.
 
-## About data
-Training was performed using the "Malaria" dataset from TFDS, consisting of 27,558 images taken from thin blood smear samples of segmented cells. The images are divided into 2 classes: 'Parasitized' and 'Uninfected', with an equal number of samples in each. The 'Parasitized' class contains samples of cells infected by the parasite that causes malaria, while the 'Uninfected' class has images of healthy cells. For more information about the dataset, you can visit the [official TFDS page:](https://www.tensorflow.org/datasets/catalog/malaria.)
+### About data
+Training was performed using the "Malaria" dataset from TFDS, consisting of 27,558 images taken from thin blood smear samples of segmented cells. The images are divided into 2 classes: 'Parasitized' and 'Uninfected', with an equal number of samples in each. The 'Parasitized' class contains samples of cells infected by the parasite that causes malaria, while the 'Uninfected' class has images of healthy cells. For more information about the dataset, you can visit the [official TFDS page](https://www.tensorflow.org/datasets/catalog/malaria.)
 
-## Getting started
-The model deployment is carried out through a web interface using the Streamlit platform. We use this platform to access the model and make predictions with both pre-loaded images and the possibility of uploading new images to obtain real-time predictions. To access the model on Streamlit, enter the following: [Link](https://malariaprojectdeeplearningcv-st.streamlit.app/). 
+### Getting started
+The model deployment is carried out through a web interface using the Streamlit platform. You can use this platform to access the model and make predictions with both preloaded images from the test set and your own images. To access the Streamlit app, please click [here](https://malariaprojectdeeplearningcv-st.streamlit.app/). 
 
 You can also download the project from GitHub if you want to explore the source code. To access the model on Github, enter the following:
 
@@ -35,10 +35,14 @@ git clone https://github.com/MarinaComotti/Malaria_Project_Deep_Learning_CV.git
 
 # Install dependencies 
 pip install -r requirements.txt
+
+#To run Streamlit locally on your PC:
+streamlit run main/Home_🏠.py
 ```
 
 ## Authors
-[Marina Comotti]() and [Catriel Ramirez]()
+
+Marina Comotti and Catriel Ramirez
 
 
 ## License
@@ -60,9 +64,7 @@ This project is under constant development and active maintenance. Here are the 
 
 - **Active Development:** Yes.
 
-- **Last Update:** [25-01-2024](https://github.com/MarinaComotti/Malaria_Project_Deep_Learning_CV.git).
-
-- **Documentation Status:** Documentation will be published soon.
+- **Last Update:** [02-02-2024](https://github.com/MarinaComotti/Malaria_Project_Deep_Learning_CV.git).
 
 This project remains active and welcomes contributions and feedback from the community. Thank you for your interest!
 
