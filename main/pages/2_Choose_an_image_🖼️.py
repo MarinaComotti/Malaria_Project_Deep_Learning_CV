@@ -5,8 +5,8 @@ from PIL import Image
 
 st.set_page_config(page_title="Choose image", page_icon="🖼️", layout="wide")
 
-options = [f"Image {i+1}" for i in range(20)]
-images_names = [f"{i+1}.jpg" for i in range(20)]
+options = [f"Image {i+1}" for i in range(10)]
+images_names = [f"{i+1}.jpg" for i in range(10)]
 
 
 def search_image_name(option):

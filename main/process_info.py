@@ -10,8 +10,8 @@ import shutil
 import streamlit as st
 
 
-IMG_WIDTH = 138
-IMG_HEIGHT = 136
+IMG_WIDTH = 132
+IMG_HEIGHT = 133
 
 
 def open_model():
