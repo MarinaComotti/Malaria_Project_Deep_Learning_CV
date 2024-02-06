@@ -10,19 +10,15 @@ st.markdown(
     ### Note
     This work is part of a development project and exploration of the main deep learning tools for computer vision on medical images. It remains open to new corrections and changes that can further improve and expand the model to make its diagnoses increasingly accurate.
     ### More Information
-    To learn more about the model's development, you can visit the following link to our document on Google Colab: ____."    """
+    To learn more about the model's development, you can visit the following link to our document on [Google Colab](https://colab.research.google.com/drive/1axlsmSISJnFnXoOWlggPWBin-7SzdURA?usp=sharing)    """
 )
 
 st.header("Authors", divider="rainbow")
 st.markdown(
     """
-    - Marina Comotti:
-    - !GitHub GitHub (--- falta completar con los enlaces---)
-    - !LinkedIn LinkedIn (--- falta completar con los enlaces---)
+    - Marina Comotti
     
-- Catriel Ramires:
-    - !GitHub GitHub (--- falta completar con los enlaces---)
-    - !LinkedIn LinkedIn (--- falta completar con los enlaces---)
+    - Catriel Ramires
     """,
     unsafe_allow_html=True,
 )
