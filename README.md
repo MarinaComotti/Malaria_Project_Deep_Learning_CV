@@ -25,13 +25,7 @@ The model deployment is carried out through a web interface using the Streamlit 
 You can also download the project from GitHub if you want to explore the source code. To access the model on Github, enter the following:
 
 ``` 
-# Create a directory 
-mkdir clon_malaria
-
-# Enter the directory.
-cd clon_malaria
-
-# Perform the clone.
+# Clone the repository
 git clone https://github.com/MarinaComotti/Malaria_Project_Deep_Learning_CV.git
 
 # Install dependencies 
