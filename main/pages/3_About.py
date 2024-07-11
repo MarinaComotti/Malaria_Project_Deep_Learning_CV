@@ -10,19 +10,29 @@ st.markdown(
     ### Note
     This work is part of a development project and exploration of the main deep learning tools for computer vision on medical images. It remains open to new corrections and changes that can further improve and expand the model to make its diagnoses increasingly accurate.
     ### More Information
-    To learn more about the model's development, you can visit the following link to our document on Google Colab: ____."    """
-)
+    To learn more about the model's development, you can visit the following link to our document on Google Colab:
 
-st.header("Authors", divider="rainbow")
-st.markdown(
-    """
-    - Marina Comotti:
-    - !GitHub GitHub (--- falta completar con los enlaces---)
-    - !LinkedIn LinkedIn (--- falta completar con los enlaces---)
-    
-- Catriel Ramires:
-    - !GitHub GitHub (--- falta completar con los enlaces---)
-    - !LinkedIn LinkedIn (--- falta completar con los enlaces---)
+       <a href="https://colab.research.google.com/drive/1axlsmSISJnFnXoOWlggPWBin-7SzdURA?usp=sharing" target="_blank">
+       <img src="https://colab.research.google.com/img/colab_favicon_256px.png" alt="GitHub" style="width:24px; height:24px; vertical-align:middle;">
+       Malaria detection - Binary clasification with CNN and Transfer learning </a> 
     """,
     unsafe_allow_html=True,
 )
+# style="font-size:20px"
+st.header("Authors", divider="rainbow")
+
+
+st.markdown(
+    f"""
+    - <a style="font-size:18px" href="https://github.com/MarinaComotti" target="_blank">
+       <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub" style="width:24px; height:24px; vertical-align:middle;">
+       Marina Comotti </a>
+
+    - <a style="font-size:18px" href="https://github.com/catrielramirez" target="_blank">
+      <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub" style="width:24px; height:24px; vertical-align:middle;">
+      Catriel Ramirez </a>
+    """,
+    unsafe_allow_html=True,
+)
+
+

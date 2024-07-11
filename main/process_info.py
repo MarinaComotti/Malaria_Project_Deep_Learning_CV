@@ -19,11 +19,9 @@ def open_model():
     model_path = path.get_model_path()
     model_path_str = str(model_path)
 
-    # Cargar el modelo TensorFlow Lite desde el archivo .tflite
     interpreter = tf.lite.Interpreter(model_path=model_path_str)
     interpreter.allocate_tensors()
 
-    # Obtener los detalles del input y output del modelo
     input_details = interpreter.get_input_details()
     output_details = interpreter.get_output_details()
 
@@ -44,10 +42,8 @@ def preprocess_image(img):
 def make_prediction(image):
     img = preprocess_image(image)
     input_details, output_details, interpreter = open_model()
-    # Realizar la inferencia
     interpreter.set_tensor(input_details[0]['index'], img)
     interpreter.invoke()
 
-    # Obtener los resultados de la inferencia
     output_data = interpreter.get_tensor(output_details[0]['index'])
     return output_data
