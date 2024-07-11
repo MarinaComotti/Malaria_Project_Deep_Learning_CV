@@ -59,7 +59,7 @@ This project is under constant development and active maintenance. Here are the 
 
 - **Active Development:** Yes.
 
-- **Last Update:** [02-02-2024](https://github.com/MarinaComotti/Malaria_Project_Deep_Learning_CV.git).
+- **Last Update:** [11-07-2024](https://github.com/MarinaComotti/Malaria_Project_Deep_Learning_CV.git).
 
 This project remains active and welcomes contributions and feedback from the community. Thank you for your interest!
 
