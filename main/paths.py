@@ -4,9 +4,13 @@ import pathlib
 class Path:
     def __init__(self):
         self.path_structure = pathlib.Path(__file__).parent.parent.resolve()
+        # self.model_path = pathlib.Path(
+        #    self.path_structure, "model", "malaria_model_classification.tflite"
+        # )
         self.model_path = pathlib.Path(
-            self.path_structure, "model", "malaria_model_classification.tflite"
+           self.path_structure, "model", "malaria_model_classification.tflite"
         )
+        
         self.model_compress_path = pathlib.Path(
             self.path_structure, "model", "malaria_model_classification.h5.gz"
         )
