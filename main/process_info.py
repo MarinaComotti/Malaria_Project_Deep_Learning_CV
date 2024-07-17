@@ -1,13 +1,9 @@
 import tensorflow as tf
-from tensorflow import keras
 from keras.preprocessing import image
 import numpy as np
 from PIL import Image
 import io
 from paths import Path
-import gzip
-import shutil
-import streamlit as st
 
 
 IMG_WIDTH = 132

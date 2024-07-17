@@ -38,16 +38,10 @@ def show_prediction(image, real_class):
         else:
             st.info(f"Incorrect result! The prediction made by the model was not successful. This cell is actually {real_class.lower()} with the Plasmodium parasite responsible for causing malaria.", icon="❌")
 
-
-
     elif parasitized:
         st.warning("ATTENTION, PATIENT AT HIGH RISK OF CARRYING MALARIA! According to the model, this cell is infected with the Plasmodium parasite responsible for causing this disease.", icon="⚠️")   
     else:
         st.info("Patient at low risk of carrying malaria. According to the model, this cell is not infected with the Plasmodium parasite responsible for causing this disease.", icon="🔬")
-
-
-
-        
 
 
 def create_columns(image, selected_image_name, image_class=None):
