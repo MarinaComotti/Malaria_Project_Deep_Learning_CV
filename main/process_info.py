@@ -31,6 +31,8 @@ def open_image(file):
 
 def preprocess_image(img):
     img_array = image.img_to_array(img)
+    if img_array.shape[-1] == 4:
+        img_array = img_array[..., :3]
     img_array = np.expand_dims(img_array, axis=0)
     return tf.image.resize(img_array, size=(IMG_HEIGHT, IMG_WIDTH))
 
