@@ -14,10 +14,10 @@ Using tools such as TensorFlow and Keras, we thoroughly explore deep learning te
 The exploration and processing of data, along with the construction, training, and evaluation of the model, were developed in Google Colab. To access the document, click on this [link](https://malariaprojectdeeplearningcv-st.streamlit.app/)
  
 ### About model
-This model was created using Tensorflow and Keras. Different techniques were applied in its development, including CNN, Image Augmentation, Transfer Learning (with VGG16), and Fine-Tuning. During the evaluation stage, it achieved an accuracy of about 96% on the test set.
+This model was created using Tensorflow and Keras. Different techniques were applied in its development, including image augmentation, transfer learning and fine-tuning. During the evaluation stage, it achieved an accuracy of about 95% on the test set.
 
 ### About data
-Training was performed using the "Malaria" dataset from TFDS, consisting of 27,558 images taken from thin blood smear samples of segmented cells. The images are divided into 2 classes: 'Parasitized' and 'Uninfected', with an equal number of samples in each. The 'Parasitized' class contains samples of cells infected by the parasite that causes malaria, while the 'Uninfected' class has images of healthy cells. For more information about the dataset, you can visit the [official TFDS page](https://www.tensorflow.org/datasets/catalog/malaria.)
+Training was performed using the "Malaria" dataset from TFDS, consisting of 27,558 images taken from thin blood smear samples of segmented cells. The images are divided into 2 classes: 'Parasitized' and 'Uninfected', with an equal number of samples in each. The 'Parasitized' class contains samples of cells infected by the parasite that causes malaria, while the 'Uninfected' class has images of healthy cells. For more information about the dataset, you can visit the official page: [TFDS Malaria](https://www.tensorflow.org/datasets/catalog/malaria.)
 
 ### Getting started
 The model deployment is carried out through a web interface using the Streamlit platform. You can use this platform to access the model and make predictions with both preloaded images from the test set and your own images. To access the Streamlit app, please click [here](https://malariaprojectdeeplearningcv-st.streamlit.app/). 
@@ -37,7 +37,7 @@ streamlit run main/Home_🏠.py
 
 ## Authors
 
-Marina Comotti and Catriel Ramirez
+[Marina Comotti](https://github.com/MarinaComotti) and [Catriel Ramirez](https://github.com/catrielramirez)
 
 
 ## License
@@ -59,7 +59,7 @@ This project is under constant development and active maintenance. Here are the 
 
 - **Active Development:** Yes.
 
-- **Last Update:** [11-07-2024](https://github.com/MarinaComotti/Malaria_Project_Deep_Learning_CV.git).
+- **Last Update:** [17-07-2024](https://github.com/MarinaComotti/Malaria_Project_Deep_Learning_CV.git).
 
 This project remains active and welcomes contributions and feedback from the community. Thank you for your interest!
 
