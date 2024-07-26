@@ -3,4 +3,3 @@ streamlit==1.30.0
 tensorflow==2.15.0
 numpy==1.26.3
 keras==2.15.0
-python==3.11.4
