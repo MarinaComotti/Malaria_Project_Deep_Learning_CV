@@ -12,7 +12,7 @@ st.markdown(
     ### More Information
     To learn more about the model's development, you can visit the following link to our document on Google Colab:
 
-       <a href="https://colab.research.google.com/drive/1axlsmSISJnFnXoOWlggPWBin-7SzdURA?usp=sharing" target="_blank">
+       <a href="https://colab.research.google.com/drive/1iinCOe6eq2b1zEUP9jXvjjlSi2ryqFIx?usp=sharing" target="_blank">
        <img src="https://colab.research.google.com/img/colab_favicon_256px.png" alt="GitHub" style="width:24px; height:24px; vertical-align:middle;">
        Malaria detection - Binary clasification with CNN and Transfer learning </a> 
     """,
