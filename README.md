@@ -1,5 +1,5 @@
 # Malaria Image Classification Project 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1iinCOe6eq2b1zEUP9jXvjjlSi2ryqFIx?usp=sharing)    [![Open In Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://malariaprojectdeeplearningcv.streamlit.app/)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1iinCOe6eq2b1zEUP9jXvjjlSi2ryqFIx?usp=sharing)    [![Open App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://malaria-computer-vision-7ji72rdula-rj.a.run.app)
 
 
 <img src="./images_test_sample/collage_readme.png" alt="cells" style="max-width: 200px; height: 332px; display: block; margin: auto;">
