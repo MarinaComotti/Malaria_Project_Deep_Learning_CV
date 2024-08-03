@@ -1,0 +1,5 @@
+.gcloudignore
+.git
+README.md
+.gitignore
+#!include:.gitignore 
