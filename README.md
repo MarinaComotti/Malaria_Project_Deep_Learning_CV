@@ -11,7 +11,7 @@
 This project aims to detect malaria using deep learning techniques. To address this issue, we focus on implementing a supervised learning approach. For model training, we utilize the "Malaria" dataset from TensorFlow Datasets, which contains 27,558 images of blood cells, both parasitized and uninfected. The main purpose is to create a binary classification model aimed at improving malaria diagnosis.
 Using tools such as TensorFlow and Keras, we thoroughly explore deep learning techniques. The project covers everything from data acquisition and preprocessing to model implementation and evaluation. Our comprehensive approach is not only geared towards developing an efficient solution for malaria image classification but also understanding in-depth the complexities and challenges associated with the practical application of artificial intelligence in a medical context.
 
-The exploration and processing of data, along with the construction, training, and evaluation of the model, were developed in [Google Colab](https://colab.research.google.com/drive/1iinCOe6eq2b1zEUP9jXvjjlSi2ryqFIx?usp=sharing) 
+The exploration and processing of data, along with the construction, training, and evaluation of the model, were developed in [Google Colab <img src="https://img.icons8.com/?size=100&id=lOqoeP2Zy02f&format=png&color=000000" width="20" alt="Open App"/>](https://colab.research.google.com/drive/1iinCOe6eq2b1zEUP9jXvjjlSi2ryqFIx?usp=sharing) 
 ### About model
 This model was created using Tensorflow and Keras. Different techniques were applied in its development, including image augmentation, transfer learning and fine-tuning. During the evaluation stage, it achieved an accuracy of about 95% on the test set.
 
