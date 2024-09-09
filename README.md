@@ -1,5 +1,5 @@
 # Malaria Image Classification Project 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1iinCOe6eq2b1zEUP9jXvjjlSi2ryqFIx?usp=sharing)    [![Open App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://malaria-computer-vision-7ji72rdula-rj.a.run.app)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1iinCOe6eq2b1zEUP9jXvjjlSi2ryqFIx?usp=sharing)    [![Open App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://malariaprojectdeeplearningcv.streamlit.app/)
 
 
 <img src="./images_test_sample/collage_readme.png" alt="cells" style="max-width: 200px; height: 332px; display: block; margin: auto;">
@@ -19,7 +19,7 @@ This model was created using Tensorflow and Keras. Different techniques were app
 Training was performed using the "Malaria" dataset from TFDS, consisting of 27,558 images taken from thin blood smear samples of segmented cells. The images are divided into 2 classes: 'Parasitized' and 'Uninfected', with an equal number of samples in each. The 'Parasitized' class contains samples of cells infected by the parasite that causes malaria, while the 'Uninfected' class has images of healthy cells. For more information about the dataset, you can visit the official page: [TFDS Malaria](https://www.tensorflow.org/datasets/catalog/malaria)
 
 ### Getting started
-The model can be used through a web application created with **Streamlit** and deployed through **Google Cloud**. You can use this platform to make predictions with both preloaded images from the test set and your own images. To access the Streamlit app, please click [here <img src="https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg" width="15" alt="Open App"/>](https://malaria-computer-vision-7ji72rdula-rj.a.run.app). 
+The model can be used through a web application created with **Streamlit**. You can use this platform to make predictions with both preloaded images from the test set and your own images. To access the Streamlit app, please click [here <img src="https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg" width="15" alt="Open App"/>](https://malariaprojectdeeplearningcv.streamlit.app/). 
 
 You can also download the project from GitHub:
 
